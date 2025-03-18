@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.blog-post {
+  flex: 0 0 70%;
+}
+
+.blog-post article {
+  margin-bottom: 2em;
+}
+
+.blog-post h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.blog-post p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+iframe {
+  width: 100%;
+  max-width: 560px;
+  border: 5px solid #ddd;
+  border-radius: 8px;
+}
+
+.sidebar {
+  flex: 0 0 25%;
+  background-color: #fff;
+  padding: 1.5em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.sidebar h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+.blog_title {
+  font-size: 50px;
+  font-style: italic;
+  letter-spacing: 20px;
+  color: yellow;
+}
+
+.nav_menu a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav_menu a:hover {
+  text-decoration: underline;
+}
